@@ -4,7 +4,7 @@ f = open('test_in_csv.csv','r')
 lines=f.readlines()
 a = ''
 #define string and a list to help in character assignment
-myArray = "\0" * 100
+myArray = "\0" * 200
 listify = list(myArray)
 
 print("Enter the line that you want to analyse")
@@ -26,16 +26,25 @@ for x in range(0, int(index_no)):
 ##transform list back to string    
 myArray = ''.join(listify)
 count_comma = 0
-comma_indices = [0] * 10
+comma_indices = [0] * 20
 for x in range(0, int(index_no)):
     if str(lines[int(line_no)][x]) == "," :
         comma_indices[count_comma] = x
         count_comma += 1
 print(myArray)
 
-print ("no. of commas found" + str(count_comma))
+print ("no. of commas found " + str(count_comma))
 print "their indices are"
 print(comma_indices)
+
+var = 0
+first_index = 0
+second_index = comma_indices[var]
+for x in range(0, count_comma):
+    print (myArray[first_index:second_index])
+    var += 1
+    first_index = second_index + 1
+    second_index = comma_indices[var]
 
 ##defining macros for table headers
 
