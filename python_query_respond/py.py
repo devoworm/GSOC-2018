@@ -41,6 +41,14 @@ var = 0
 first_index = 0
 second_index = comma_indices[var]
 for x in range(0, count_comma):
+    if x == 1 :
+        print ('\x1b[5;30;43m' + "Parent Cell and it's parameters:" + '\x1b[0m')
+    if x == 5 :
+        print ('\x1b[5;30;43m' + "Daughter Cell 1 and it's parameters:" + '\x1b[0m')
+    if x == 9 :
+        print ('\x1b[5;30;43m' + "Daughter Cell 2 and it's parameters:" + '\x1b[0m')
+    if x == 13 :
+        print ('\x1b[5;30;43m' + "Miscellaneous info:" + '\x1b[0m')
     print (myArray[first_index:second_index])
     var += 1
     first_index = second_index + 1
