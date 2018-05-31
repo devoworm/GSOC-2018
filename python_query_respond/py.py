@@ -1,6 +1,18 @@
 ##test code
 
 
+##code for generating lookup table
+lf = open('lookup_for_parent_daughter_cells.csv','r')
+line_lu=lf.readlines()
+comma1_found = 0
+comma2_found = 0
+comma3_found = 0
+comma4_found = 0
+comma1_found_dc = 0
+comma2_found_dc = 0
+
+##code for generating lookup table ends here ______________________________
+
 f = open('test_in_csv.csv','r')
 lines=f.readlines()
 a = ''
@@ -8,21 +20,107 @@ a = ''
 myArray = "\0" * 200
 listify = list(myArray)
 
+first_time_use_variable = 1
+line_no = 0
+
 loop_variable = 1
 while loop_variable == 1 :
 
-	print("Enter the line that you want to analyse")
-	line_no = raw_input()
-	#just some sample print statements to check if everyhting's printing properly
-	#print lines[int(line_no)]
 
-	print("Enter the length limit that you want to analyse")
-	index_no = raw_input()
+	if first_time_use_variable != 1 :
+	    print("The current line no. being analysed is: " + str(line_no))
+	    print("Would you like to analyse a daughter cell of the current parent cell? Hit 1 for yes and 0 for starting fresh")
+	    choice_of_loop = raw_input()
+	    
+	    if int(choice_of_loop) == 0 :
+	    	print("it has reached")
+	    	##input which line to analyse
+		print("Enter the line that you want to analyse")
+		line_no = raw_input()
+	
+		##enter till which index to analyse
+		print("Enter the length limit that you want to analyse")
+		index_no = raw_input()
+		
+	    else :
+	    	for lvx in range(1, 20):
+		    if str(line_lu[int(line_no)][lvx]) == "," :
+		        comma1_found = lvx
+		        break
+		for lvx in range(comma1_found+1, 20):
+		    if str(line_lu[int(line_no)][lvx]) == "," :
+		        comma2_found = lvx
+		        break
+		for lvx in range(comma2_found+1, 20):
+		    if str(line_lu[int(line_no)][lvx]) == "," :
+		        comma3_found = lvx
+		        break
+		for lvx in range(comma3_found+1, 20):
+		    if str(line_lu[int(line_no)][lvx]) == "," :
+		        comma4_found = lvx
+		        break
+	        print("the current cell that you just analysed was: " + line_lu[int(line_no)][comma1_found+1:comma2_found])
+	        print("the first daughter cell is: " + line_lu[int(line_no)][comma2_found+1:comma3_found])
+		print("the second daughter cell is: " + line_lu[int(line_no)][comma3_found+1:comma4_found])
+		print("Enter 1 if you want to query for first daughter cell and 2 for second daughter cell")
+		dc_choice = raw_input()
+		if dc_choice == "1" :
+		    #code
+		    print("user chose 1st daughter cell which is: " + line_lu[int(line_no)][comma2_found+1:comma3_found])
+		    for cur_line_no in range(1,41):
+			    for li_v in range(1, 20):
+				if str(line_lu[int(cur_line_no)][li_v]) == "," :
+				    comma1_found_dc = li_v
+				    break
+			    for li_v in range(comma1_found_dc+1, 20):
+				if str(line_lu[int(cur_line_no)][li_v]) == "," :
+				    comma2_found_dc = li_v
+				    break
+			    print ("in this line the main cell is: " + line_lu[int(cur_line_no)][comma1_found_dc+1:comma2_found_dc])
+			    if line_lu[int(cur_line_no)][comma1_found_dc+1:comma2_found_dc] == line_lu[int(line_no)][comma2_found+1:comma3_found] :
+			        print "match found"
+			        print("the line no. of the said cell is : " + str(cur_line_no))
+			        line_no = cur_line_no
+			        print("Enter the length limit that you want to analyse")
+		                index_no = raw_input()
+			        break				    
+		    
+		else :
+		    print("user chose 2nd daughter cell which is: " + line_lu[int(line_no)][comma3_found+1:comma4_found])
+		    print("the length of this cell name is: " + str(len(line_lu[int(line_no)][comma3_found+1:comma4_found])))
+		    for cur_line_no in range(1,41):
+			    for li_v in range(1, 20):
+				if str(line_lu[int(cur_line_no)][li_v]) == "," :
+				    comma1_found_dc = li_v
+				    break
+			    for li_v in range(comma1_found_dc+1, 20):
+				if str(line_lu[int(cur_line_no)][li_v]) == "," :
+				    comma2_found_dc = li_v
+				    break
+			    print ("in this line the main cell is: " + line_lu[int(cur_line_no)][comma1_found_dc+1:comma2_found_dc])
+			    print ("we need to compare this to th: " + line_lu[int(line_no)][comma3_found+1:comma4_found])
+			    if str(line_lu[int(cur_line_no)][comma1_found_dc+1:comma2_found_dc]) == str(line_lu[int(line_no)][comma3_found+1:comma4_found]) :
+			        print "match found"
+			        print("the line no. of the said cell is : " + str(cur_line_no))
+			        line_no = cur_line_no
+			        print("Enter the length limit that you want to analyse")
+		                index_no = raw_input()
+			        break
+	
+	else :
+		##input which line to analyse
+		print("Enter the line that you want to analyse")
+		line_no = raw_input()
+	
+		##enter till which index to analyse
+		print("Enter the length limit that you want to analyse")
+		index_no = raw_input()
 
-
+	##find length of line
 	line_len = len(lines[int(line_no)])
 	print ("Length of selected line is:- " + str(line_len))
 
+	##to copy the entire queried line into an array that has been converted to a list for ease of operations
 	for x in range(0, int(index_no)):
 		a = lines[int(line_no)][x]
 		listify[x] = a
@@ -31,12 +129,14 @@ while loop_variable == 1 :
 	myArray = ''.join(listify)
 	count_comma = 0
 	comma_indices = [0] * 20
+	##finding indices of commas to help decide later the end points of the comma sep. values
 	for x in range(0, int(index_no)):
 		if str(lines[int(line_no)][x]) == "," :
 		    comma_indices[count_comma] = x
 		    count_comma += 1
 	print(myArray)
 
+	##print parameters about commas
 	print ("no. of commas found " + str(count_comma))
 	print "their indices are"
 	print(comma_indices)
@@ -77,5 +177,6 @@ while loop_variable == 1 :
 	print("Enter 1 if you want to keep running")
 	loop_variable = raw_input()
 	loop_variable = int(loop_variable)
+	first_time_use_variable = 0
 
 print "Good bye!"
