@@ -9,7 +9,7 @@ Parts of the project:-
   - XML to compatible graphical format convertor
   - Research paper planning
 
-_____________________$$$$$$$$$$$$$ flow chart will appear here $$$$$$$$$$$$$_____________________
+
 <img src="flow_chart.png">
 
 1. The Datasets
