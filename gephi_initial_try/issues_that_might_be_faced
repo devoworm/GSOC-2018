@@ -9,3 +9,5 @@ errors
 https://github.com/gephi/gephi/issues/1442
 or
 https://github.com/gephi/gephi/issues/1192#issuecomment-179088499
+
+LIBGL_ALWAYS_SOFTWARE=1 ./gephi
