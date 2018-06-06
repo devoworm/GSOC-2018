@@ -10,7 +10,7 @@ Parts of the project:-
   - Research paper planning
 
 _____________________$$$$$$$$$$$$$ flow chart will appear here $$$$$$$$$$$$$_____________________
-
+<img src="flow_chart.png">
 
 1. The Datasets
 
@@ -18,7 +18,7 @@ _____________________$$$$$$$$$$$$$ flow chart will appear here $$$$$$$$$$$$$____
    - Firstly this needs to be converted to XML format as a first step in processing
    - Second step is to convert it into some compatible graphical XML schema that will be decided depending on the application being used
 
-More details are given in [**"README.md"**]() file of the folder along with a flow chart
+More details are given in [**"README.md"**](https://github.com/arnab1896/GSOC-2018/tree/issue-8_branch/embryogenesis_datasets) file of the folder along with a flow chart
 
 2. Query Responder on terminal(command line interface)
 
@@ -26,22 +26,22 @@ More details are given in [**"README.md"**]() file of the folder along with a fl
    - Users will be able to find answers to some basic queries like lineage name, parent and daughter cell information, description of adult cell if applicable.
    - Importantly, the interface will run in an endless loop and users will be able to cycle between generations through the options given after every query response is displayed on the screen
 
-More details are given in [**"README.md"**]() file of the folder along with a flow chart
+More details are given in [**"README.md"**](https://github.com/arnab1896/GSOC-2018/tree/issue-8_branch/python_query_respond) file of the folder along with a flow chart
 
 3. Excel/CSV to XML convertor
 
    - Takes input in excel/CSV format and generates an XML document in a predecided schema
 
-More details are given in [**"README.md"**]() file of the folder along with a flow chart
+More details are given in [**"README.md"**](https://github.com/arnab1896/GSOC-2018/tree/issue-8_branch/python_xml_generator) file of the folder along with a flow chart
 
 4. XML to compatible graphical format convertor
 
    - Takes input in XML format and generates an XML document in a graphical schema that is compatible with the simulation application being used - in this case, **GEPHI**.
 
-More details are given in [**"README.md"**]() file of the folder along with a flow chart
+More details are given in [**"README.md"**](https://github.com/arnab1896/GSOC-2018/tree/issue-8_branch/python_graph_generator) file of the folder along with a flow chart
 
 5. Research paper planning
 
    - This folder houses some rough ideas and a points that might be expanded onto later on in case a paper results from the efforts of this project.
    - Later on, these ideas might be researched in more depth or tested and in case it makes sense to go ahead with a paper, then these points will be useful
-   - For more details, enter thif [folder](https://github.com/arnab1896/GSOC-2018/tree/master/paper_planning).
+   - For more details, enter this [folder](https://github.com/arnab1896/GSOC-2018/tree/master/paper_planning).
