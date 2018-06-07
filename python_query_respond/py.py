@@ -1,5 +1,7 @@
 ##test code
 
+### master list that will track the order in which cells were visited
+my_list = [""]
 
 ##code for generating lookup table
 lf = open('lookup_for_parent_daughter_cells.csv','r')
@@ -141,6 +143,9 @@ while loop_variable == 1 :
 	print "their indices are"
 	print(comma_indices)
 
+	#append query line number to list
+	my_list.append(str(line_no))
+
 	var = 0
 	first_index = 0
 	second_index = comma_indices[var]
@@ -179,4 +184,5 @@ while loop_variable == 1 :
 	loop_variable = int(loop_variable)
 	first_time_use_variable = 0
 
+print ','.join(my_list)
 print "Good bye!"
