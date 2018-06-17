@@ -9,7 +9,8 @@ Parts of the project:-
   - XML to compatible graphical format convertor
   - Research paper planning
 
-
+##Force Atlas at 10^3 force units and linear splined node colour for first 3 generations
+####Precursor - P0 -> P1, AB
 <img src="flow_chart.png">
 
 1. The Datasets
@@ -19,6 +20,8 @@ Parts of the project:-
    - Second step is to convert it into some compatible graphical XML schema that will be decided depending on the application being used
 
 More details are given in [**"README.md"**](https://github.com/arnab1896/GSOC-2018/tree/issue-8_branch/embryogenesis_datasets) file of the folder along with a flow chart
+
+<img src="resources_pics/fa.png">
 
 2. Query Responder on terminal(command line interface)
 
@@ -45,3 +48,9 @@ More details are given in [**"README.md"**](https://github.com/arnab1896/GSOC-20
    - This folder houses some rough ideas and a points that might be expanded onto later on in case a paper results from the efforts of this project.
    - Later on, these ideas might be researched in more depth or tested and in case it makes sense to go ahead with a paper, then these points will be useful
    - For more details, enter this [folder](https://github.com/arnab1896/GSOC-2018/tree/master/paper_planning).
+
+##Initialized State of nodes at randomized positions
+<img src="resources_pics/ri.png">
+
+##After applying Fruchterman Reingold at 10 units gravity and 10^3 units area
+<img src="resources_pics/fr.png">

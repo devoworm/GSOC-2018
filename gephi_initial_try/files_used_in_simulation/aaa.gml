@@ -1,10 +1,9 @@
-Creator "Mark Newman on Fri Jul 21 12:44:53 2006"
 graph
 [
   node
   [
     id 0
-    label "nothing"
+    label "PR"
   ]
   node
   [
@@ -62,25 +61,7 @@ graph
   edge
   [
     source 2
-    target 4
-    value 8
-  ]
-  edge
-  [
-    source 2
     target 5
-    value 8
-  ]
-  edge
-  [
-    source 3
-    target 6
-    value 8
-  ]
-  edge
-  [
-    source 3
-    target 7
     value 8
   ]
 ]
