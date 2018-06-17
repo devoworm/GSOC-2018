@@ -11,6 +11,7 @@ Parts of the project:-
 
 ##Force Atlas at 10^3 force units and linear splined node colour for first 3 generations
 ####Precursor - P0 -> P1, AB
+
 <img src="flow_chart.png">
 
 1. The Datasets
@@ -50,7 +51,12 @@ More details are given in [**"README.md"**](https://github.com/arnab1896/GSOC-20
    - For more details, enter this [folder](https://github.com/arnab1896/GSOC-2018/tree/master/paper_planning).
 
 ##Initialized State of nodes at randomized positions
+
+Pic2:
 <img src="resources_pics/ri.png">
 
 ##After applying Fruchterman Reingold at 10 units gravity and 10^3 units area
+
 <img src="resources_pics/fr.png">
+
+For tutorials on Gephi, visit [website](https://gephi.org/)
