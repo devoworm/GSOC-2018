@@ -6,3 +6,5 @@
 Advantages and disadvantages of all
 
 4. The larger picture is important before starting
+
+5. It is profitable from time and complexity perspective to have a base XML/CSV master file that has all(all, all) the data in one single document instead of multiple different smaller versions.

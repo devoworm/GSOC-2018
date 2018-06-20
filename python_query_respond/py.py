@@ -194,26 +194,11 @@ while loop_variable == 1 :
 		first_index = second_index + 1
 		second_index = comma_indices[var]
 
-	##defining macros for table headers
-
-
-	"""parent_cell = 1
-	x_pc = 2
-	y_pc = 3
-	z_pc = 4
-	daughter_1 = 5
-	x_1 = 6
-	y_1 = 7
-	z_1 = 8
-	daughter_2 = 9
-	x_2 = 10
-	y_2 = 11
-	z_2 = 12"""
-
 	print("Enter 1 if you want to keep running")
 	loop_variable = raw_input()
 	loop_variable = int(loop_variable)
 	first_time_use_variable = 0
 
+##used to print the exact order in which the user queried for the cells
 print ','.join(my_list)
 print "Good bye!"
