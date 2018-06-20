@@ -18,3 +18,7 @@ Parts of the project:-
    - For example, if user begins by querying for precursor P0; these steps will happen:
       i. Output will be displayed on terminal with important parameters of P0
       ii. Following this, user will be given option of continuing with one of P0's daughter cells, that is, either P1 or AB, so on and so forth
+
+##Explanation
+
+As a user, you can query for cells and speccific parameters about them which include(but not limited to) daughter cell names, 'X' 'Y' 'Z' parameters, function of cell(in case of being in adult C.elegans)
