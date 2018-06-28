@@ -1,8 +1,4 @@
-AB alpapppaa
-AB arapappaa
-AB alpappaapa
-AB arapapaapa
-MS aaaaapaa
-MS aaaapaa
-AB arapapapp
-MS paaapaa
+AB alpppppaa
+AB praaappaa
+AB alppppaad
+AB praaapaad

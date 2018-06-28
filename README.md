@@ -41,6 +41,8 @@ More details are given in [**"README.md"**](https://github.com/arnab1896/GSOC-20
 4. XML to compatible graphical format convertor
 
    - Takes input in XML format and generates an XML document in a graphical schema that is compatible with the simulation application being used - in this case, **GEPHI**.
+   - The current code in this repository only supports *.gml creation. Plans are in the pipeline to add other formats like *.gexf too.
+   - The *.gml file created depends on user's choice. Either the entire embryogenesis data is ported from XML/CSV to GML. Or only those cells that belong to a certain class of cells - like intestinal or pharyngeal or Amphid neurons, etc. are ported.
 
 More details are given in [**"README.md"**](https://github.com/arnab1896/GSOC-2018/tree/issue-8_branch/python_graph_generator) file of the folder along with a flow chart
 
