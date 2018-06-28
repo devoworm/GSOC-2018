@@ -31,7 +31,7 @@ while loop_variable == 1 :
 
 	if first_time_use_variable != 1 :
 	    print("The current line no. being analysed is: " + str(line_no))
-	    print("Would you like to analyse a daughter cell of the current parent cell? Hit 1 for yes and 0 for starting fresh")
+	    print("Would you like to analyse a daughter/parent cell of the current cell? Press 1 for daughter; 0 for starting fresh and 2 for parent cell")
 	    choice_of_loop = raw_input()
 	    
 	    if int(choice_of_loop) == 0 :
@@ -41,6 +41,37 @@ while loop_variable == 1 :
 		line_no = raw_input()
 	
 		##enter till which index to analyse
+		print("Enter the length limit that you want to analyse")
+		index_no = raw_input()
+
+	    elif int(choice_of_loop) == 2 :
+	    	print("user wants to analyse parent cell of current cell")
+	    	
+	    	for lvx in range(1, 20):
+		    if str(line_lu[int(line_no)][lvx]) == "," :
+		        comma1_found = lvx
+		        break
+		for lvx in range(comma1_found+1, 20):
+		    if str(line_lu[int(line_no)][lvx]) == "," :
+		        comma2_found = lvx
+		        break
+		for lvx in range(comma2_found+1, 20):
+		    if str(line_lu[int(line_no)][lvx]) == "," :
+		        comma3_found = lvx
+		        break
+		for lvx in range(comma3_found+1, 20):
+		    if str(line_lu[int(line_no)][lvx]) == "," :
+		        comma4_found = lvx
+		        break
+	        print("the current cell that you just analysed was: " + line_lu[int(line_no)][comma1_found+1:comma2_found])
+	        if (int(line_no) % 2 == 0) :
+	            line_no = int(line_no) / 2
+	        else :
+	            if (int(line_no) != 1) :
+	                line_no = (int(line_no) - 1) / 2
+		    else :
+		        print ("You've already reached the precursor cell P0")
+
 		print("Enter the length limit that you want to analyse")
 		index_no = raw_input()
 		
@@ -163,26 +194,11 @@ while loop_variable == 1 :
 		first_index = second_index + 1
 		second_index = comma_indices[var]
 
-	##defining macros for table headers
-
-
-	"""parent_cell = 1
-	x_pc = 2
-	y_pc = 3
-	z_pc = 4
-	daughter_1 = 5
-	x_1 = 6
-	y_1 = 7
-	z_1 = 8
-	daughter_2 = 9
-	x_2 = 10
-	y_2 = 11
-	z_2 = 12"""
-
 	print("Enter 1 if you want to keep running")
 	loop_variable = raw_input()
 	loop_variable = int(loop_variable)
 	first_time_use_variable = 0
 
+##used to print the exact order in which the user queried for the cells
 print ','.join(my_list)
 print "Good bye!"

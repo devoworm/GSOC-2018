@@ -1,0 +1,27 @@
+precursor:AB:P0 a:Embryonic founder cell
+ant_deirid:ADEL:AB plapaaaapa:Anterior deirid, sensory neuron, dopaminergic
+ant_deirid:ADER:AB prapaaaapa:Anterior deirid, sensory neuron, dopaminergic
+ant_deirid:ADEshL:AB arppaaaa:Anterior deirid sheath
+ant_deirid:ADEshR:AB arpppaaa:Anterior deirid sheath
+ant_deirid:ADEsoL:AB arppaaapa:Anterior deirid socket
+ant_deirid:ADEsoR:AB arpppaapa:Anterior deirid socket
+amphid_neuron:ADFL:AB alpppppaa:Amphid neuron, prob. chemosensory
+amphid_neuron:ADFR:AB praaappaa:Amphid neuron, prob. chemosensory
+amphid_neuron:ADLL:AB alppppaad:Amphid neuron, prob. chemosensory
+amphid_neuron:ADLR:AB praaapaad:Amphid neuron, prob. chemosensory
+amphid_interneuron:AIAL:AB plppaappa:Amphid interneuron
+amphid_interneuron:AIAR:AB prppaappa:Amphid interneuron
+amphid_interneuron:AIBL:AB plaapappa:Amphid interneuron
+amphid_interneuron:AIBR:AB praapappa:Amphid interneuron
+amphid_interneuron:AIYL:AB plpapaaap:Amphid interneuron
+amphid_interneuron:AIYR:AB prpapaaap:Amphid interneuron
+amphid_interneuron:AIZL:AB plapaaapav:Amphid interneuron
+amphid_interneuron:AIZR:AB prapaaapav:Amphid interneuron
+pharyngeal:I1L:AB alpapppaa:Pharyngeal interneurons, ant sensory, input from RIP
+pharyngeal:I1R:AB arapappaa:Pharyngeal interneurons, ant sensory, input from RIP
+pharyngeal:I2L:AB alpappaapa:Pharyngeal interneurons, ant sensory.
+pharyngeal:I2R:AB arapapaapa:Pharyngeal interneurons, ant sensory.
+pharyngeal:I3:MS aaaaapaa:Pharyngeal interneuron, ant sensory.
+pharyngeal:I4:MS aaaapaa:Pharyngeal interneuron.
+pharyngeal:I5:AB arapapapp:Pharyngeal interneuron, post sensory.
+pharyngeal:I6:MS paaapaa:Pharyngeal interneuron, post sensory.

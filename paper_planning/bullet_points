@@ -1,3 +1,10 @@
 1. Representation of embryogenesis graphically in XML
 
 2. Conversion of CSV or excel data into XML and then graphically compatible XML schema
+
+3.Issues to keep in mind while handling data. The data, although same, can be stored in multiple formats - XML, Excel, CSv.
+Advantages and disadvantages of all
+
+4. The larger picture is important before starting
+
+5. It is profitable from time and complexity perspective to have a base XML/CSV master file that has all(all, all) the data in one single document instead of multiple different smaller versions.

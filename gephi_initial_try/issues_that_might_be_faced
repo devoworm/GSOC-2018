@@ -11,3 +11,7 @@ or
 https://github.com/gephi/gephi/issues/1192#issuecomment-179088499
 
 LIBGL_ALWAYS_SOFTWARE=1 ./gephi
+
+Tutorials:
+1.https://gephi.org/users/quick-start/
+2.https://gephi.wordpress.com/tag/force-atlas/
