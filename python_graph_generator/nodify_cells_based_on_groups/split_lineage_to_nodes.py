@@ -1,5 +1,7 @@
 lf = open('lineage_name.txt','r')
+wf = open('for_gephi.gml','w+')
 line_lu=lf.readlines()
+master_list = []
 
 print "No. of lineages present :" + str(len(line_lu)) + "\n"
 
@@ -32,5 +34,13 @@ for var in range (len(line_lu)):
 	else :
 		print "\nError in input format"
 
+	master_list = master_list + list_of_nodes
 	print list_of_nodes
 	print "\n"
+
+master_list = list(set(master_list))
+master_list.sort()
+print master_list
+
+for i in range (0,len(master_list)) :
+    wf.write(master_list[i] + "\n")
