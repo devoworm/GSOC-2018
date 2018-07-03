@@ -1,5 +1,5 @@
 lf = open('lineage_name.txt','r')
-wf = open('for_gephi.gml','w+')
+wf = open('for_gephi.txt','w+')
 line_lu=lf.readlines()
 master_list = []
 
