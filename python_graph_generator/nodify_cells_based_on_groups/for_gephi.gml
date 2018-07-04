@@ -2,349 +2,308 @@ graph
 [
   node
   [
-    id 0
+    id AB
     label AB
-
   ]
   node
   [
-    id 1
+    id ABa
+    label ABa
+  ]
+  node
+  [
+    id ABal
+    label ABal
+  ]
+  node
+  [
+    id ABalp
+    label ABalp
+  ]
+  node
+  [
+    id ABalpp
+    label ABalpp
+  ]
+  node
+  [
+    id ABalppp
+    label ABalppp
+  ]
+  node
+  [
+    id ABalpppp
+    label ABalpppp
+  ]
+  node
+  [
+    id ABalppppa
+    label ABalppppa
+  ]
+  node
+  [
+    id ABalppppaa
+    label ABalppppaa
+  ]
+  node
+  [
+    id ABalppppaad
+    label ABalppppaad
+  ]
+  node
+  [
+    id ABalppppp
+    label ABalppppp
+  ]
+  node
+  [
+    id ABalpppppa
+    label ABalpppppa
+  ]
+  node
+  [
+    id ABalpppppaa
+    label ABalpppppaa
+  ]
+  node
+  [
+    id ABp
     label ABp
-
   ]
   node
   [
-    id 2
-    label ABpl
-
-  ]
-  node
-  [
-    id 3
-    label ABpla
-
-  ]
-  node
-  [
-    id 4
-    label ABplaa
-
-  ]
-  node
-  [
-    id 5
-    label ABplaap
-
-  ]
-  node
-  [
-    id 6
-    label ABplaapa
-
-  ]
-  node
-  [
-    id 7
-    label ABplaapap
-
-  ]
-  node
-  [
-    id 8
-    label ABplaapapp
-
-  ]
-  node
-  [
-    id 9
-    label ABplaapappa
-
-  ]
-  node
-  [
-    id 10
-    label ABplap
-
-  ]
-  node
-  [
-    id 11
-    label ABplapa
-
-  ]
-  node
-  [
-    id 12
-    label ABplapaa
-
-  ]
-  node
-  [
-    id 13
-    label ABplapaaa
-
-  ]
-  node
-  [
-    id 14
-    label ABplapaaap
-
-  ]
-  node
-  [
-    id 15
-    label ABplapaaapa
-
-  ]
-  node
-  [
-    id 16
-    label ABplapaaapav
-
-  ]
-  node
-  [
-    id 17
-    label ABplp
-
-  ]
-  node
-  [
-    id 18
-    label ABplpa
-
-  ]
-  node
-  [
-    id 19
-    label ABplpap
-
-  ]
-  node
-  [
-    id 20
-    label ABplpapa
-
-  ]
-  node
-  [
-    id 21
-    label ABplpapaa
-
-  ]
-  node
-  [
-    id 22
-    label ABplpapaaa
-
-  ]
-  node
-  [
-    id 23
-    label ABplpapaaap
-
-  ]
-  node
-  [
-    id 24
-    label ABplpp
-
-  ]
-  node
-  [
-    id 25
-    label ABplppa
-
-  ]
-  node
-  [
-    id 26
-    label ABplppaa
-
-  ]
-  node
-  [
-    id 27
-    label ABplppaap
-
-  ]
-  node
-  [
-    id 28
-    label ABplppaapp
-
-  ]
-  node
-  [
-    id 29
-    label ABplppaappa
-
-  ]
-  node
-  [
-    id 30
+    id ABpr
     label ABpr
-
   ]
   node
   [
-    id 31
+    id ABpra
     label ABpra
-
   ]
   node
   [
-    id 32
+    id ABpraa
     label ABpraa
-
   ]
   node
   [
-    id 33
-    label ABpraap
-
+    id ABpraaa
+    label ABpraaa
   ]
   node
   [
-    id 34
-    label ABpraapa
-
+    id ABpraaap
+    label ABpraaap
   ]
   node
   [
-    id 35
-    label ABpraapap
-
+    id ABpraaapa
+    label ABpraaapa
   ]
   node
   [
-    id 36
-    label ABpraapapp
-
+    id ABpraaapaa
+    label ABpraaapaa
   ]
   node
   [
-    id 37
-    label ABpraapappa
-
+    id ABpraaapaad
+    label ABpraaapaad
   ]
   node
   [
-    id 38
-    label ABprap
-
+    id ABpraaapp
+    label ABpraaapp
   ]
   node
   [
-    id 39
-    label ABprapa
-
+    id ABpraaappa
+    label ABpraaappa
   ]
   node
   [
-    id 40
-    label ABprapaa
-
+    id ABpraaappaa
+    label ABpraaappaa
   ]
-  node
+
+  edge
   [
-    id 41
-    label ABprapaaa
-
+    source AB
+    target ABa
   ]
-  node
+  edge
   [
-    id 42
-    label ABprapaaap
-
+    source ABa
+    target ABal
   ]
-  node
+  edge
   [
-    id 43
-    label ABprapaaapa
-
+    source ABal
+    target ABalp
   ]
-  node
+  edge
   [
-    id 44
-    label ABprapaaapav
-
+    source ABalp
+    target ABalpp
   ]
-  node
+  edge
   [
-    id 45
-    label ABprp
-
+    source ABalpp
+    target ABalppp
   ]
-  node
+  edge
   [
-    id 46
-    label ABprpa
-
+    source ABalppp
+    target ABalpppp
   ]
-  node
+  edge
   [
-    id 47
-    label ABprpap
-
+    source ABalpppp
+    target ABalppppp
   ]
-  node
+  edge
   [
-    id 48
-    label ABprpapa
-
+    source ABalppppp
+    target ABalpppppa
   ]
-  node
+  edge
   [
-    id 49
-    label ABprpapaa
-
+    source ABalpppppa
+    target ABalpppppaa
   ]
-  node
+  edge
   [
-    id 50
-    label ABprpapaaa
-
+    source AB
+    target ABp
   ]
-  node
+  edge
   [
-    id 51
-    label ABprpapaaap
-
+    source ABp
+    target ABpr
   ]
-  node
+  edge
   [
-    id 52
-    label ABprpp
-
+    source ABpr
+    target ABpra
   ]
-  node
+  edge
   [
-    id 53
-    label ABprppa
-
+    source ABpra
+    target ABpraa
   ]
-  node
+  edge
   [
-    id 54
-    label ABprppaa
-
+    source ABpraa
+    target ABpraaa
   ]
-  node
+  edge
   [
-    id 55
-    label ABprppaap
-
+    source ABpraaa
+    target ABpraaap
   ]
-  node
+  edge
   [
-    id 56
-    label ABprppaapp
-
+    source ABpraaap
+    target ABpraaapp
   ]
-  node
+  edge
   [
-    id 57
-    label ABprppaappa
-
+    source ABpraaapp
+    target ABpraaappa
   ]
+  edge
+  [
+    source ABpraaappa
+    target ABpraaappaa
+  ]
+  edge
+  [
+    source AB
+    target ABa
+  ]
+  edge
+  [
+    source ABa
+    target ABal
+  ]
+  edge
+  [
+    source ABal
+    target ABalp
+  ]
+  edge
+  [
+    source ABalp
+    target ABalpp
+  ]
+  edge
+  [
+    source ABalpp
+    target ABalppp
+  ]
+  edge
+  [
+    source ABalppp
+    target ABalpppp
+  ]
+  edge
+  [
+    source ABalpppp
+    target ABalppppa
+  ]
+  edge
+  [
+    source ABalppppa
+    target ABalppppaa
+  ]
+  edge
+  [
+    source ABalppppaa
+    target ABalppppaad
+  ]
+  edge
+  [
+    source AB
+    target ABp
+  ]
+  edge
+  [
+    source ABp
+    target ABpr
+  ]
+  edge
+  [
+    source ABpr
+    target ABpra
+  ]
+  edge
+  [
+    source ABpra
+    target ABpraa
+  ]
+  edge
+  [
+    source ABpraa
+    target ABpraaa
+  ]
+  edge
+  [
+    source ABpraaa
+    target ABpraaap
+  ]
+  edge
+  [
+    source ABpraaap
+    target ABpraaapa
+  ]
+  edge
+  [
+    source ABpraaapa
+    target ABpraaapaa
+  ]
+  edge
+  [
+    source ABpraaapaa
+    target ABpraaapaad
+  ]
+]
