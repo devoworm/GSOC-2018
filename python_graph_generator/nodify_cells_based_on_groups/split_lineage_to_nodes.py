@@ -1,7 +1,10 @@
 lf = open('lineage_name.txt','r')
-wf = open('for_gephi.txt','w+')
+wf = open('for_gephi_nodes.txt','w+')
+rf = open('for_gephi_edges.txt','w+')
 line_lu=lf.readlines()
 master_list = []
+master_list_with_reps = []
+master_list_with_reps = master_list_with_reps + list(str(len(line_lu)))
 
 print "No. of lineages present :" + str(len(line_lu)) + "\n"
 
@@ -35,12 +38,19 @@ for var in range (len(line_lu)):
 		print "\nError in input format"
 
 	master_list = master_list + list_of_nodes
+	master_list_with_reps = master_list_with_reps + list(str(var)) + list_of_nodes
 	print list_of_nodes
 	print "\n"
 
 master_list = list(set(master_list))
 master_list.sort()
+print "This list is master list without reps and sorted\n"
 print master_list
+print "\nThis is master list in order which will be used to make edge connections in GML file\n"
+print master_list_with_reps
 
 for i in range (0,len(master_list)) :
     wf.write(master_list[i] + "\n")
+
+for i in range (0,len(master_list_with_reps)) :
+    rf.write(master_list_with_reps[i] + "\n")
