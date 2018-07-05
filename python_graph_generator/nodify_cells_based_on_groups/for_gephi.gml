@@ -22,108 +22,218 @@ graph
   ]
   node
   [
-    id ABalpp
-    label ABalpp
+    id ABalpa
+    label ABalpa
   ]
   node
   [
-    id ABalppp
-    label ABalppp
+    id ABalpap
+    label ABalpap
   ]
   node
   [
-    id ABalpppp
-    label ABalpppp
+    id ABalpapp
+    label ABalpapp
   ]
   node
   [
-    id ABalppppa
-    label ABalppppa
+    id ABalpappa
+    label ABalpappa
   ]
   node
   [
-    id ABalppppaa
-    label ABalppppaa
+    id ABalpappaa
+    label ABalpappaa
   ]
   node
   [
-    id ABalppppaad
-    label ABalppppaad
+    id ABalpappaap
+    label ABalpappaap
   ]
   node
   [
-    id ABalppppp
-    label ABalppppp
+    id ABalpappaapa
+    label ABalpappaapa
   ]
   node
   [
-    id ABalpppppa
-    label ABalpppppa
+    id ABalpappp
+    label ABalpappp
   ]
   node
   [
-    id ABalpppppaa
-    label ABalpppppaa
+    id ABalpapppa
+    label ABalpapppa
   ]
   node
   [
-    id ABp
-    label ABp
+    id ABalpapppaa
+    label ABalpapppaa
   ]
   node
   [
-    id ABpr
-    label ABpr
+    id ABar
+    label ABar
   ]
   node
   [
-    id ABpra
-    label ABpra
+    id ABara
+    label ABara
   ]
   node
   [
-    id ABpraa
-    label ABpraa
+    id ABarap
+    label ABarap
   ]
   node
   [
-    id ABpraaa
-    label ABpraaa
+    id ABarapa
+    label ABarapa
   ]
   node
   [
-    id ABpraaap
-    label ABpraaap
+    id ABarapap
+    label ABarapap
   ]
   node
   [
-    id ABpraaapa
-    label ABpraaapa
+    id ABarapapa
+    label ABarapapa
   ]
   node
   [
-    id ABpraaapaa
-    label ABpraaapaa
+    id ABarapapaa
+    label ABarapapaa
   ]
   node
   [
-    id ABpraaapaad
-    label ABpraaapaad
+    id ABarapapaap
+    label ABarapapaap
   ]
   node
   [
-    id ABpraaapp
-    label ABpraaapp
+    id ABarapapaapa
+    label ABarapapaapa
   ]
   node
   [
-    id ABpraaappa
-    label ABpraaappa
+    id ABarapapap
+    label ABarapapap
   ]
   node
   [
-    id ABpraaappaa
-    label ABpraaappaa
+    id ABarapapapp
+    label ABarapapapp
+  ]
+  node
+  [
+    id ABarapapp
+    label ABarapapp
+  ]
+  node
+  [
+    id ABarapappa
+    label ABarapappa
+  ]
+  node
+  [
+    id ABarapappaa
+    label ABarapappaa
+  ]
+  node
+  [
+    id MS
+    label MS
+  ]
+  node
+  [
+    id MSa
+    label MSa
+  ]
+  node
+  [
+    id MSaa
+    label MSaa
+  ]
+  node
+  [
+    id MSaaa
+    label MSaaa
+  ]
+  node
+  [
+    id MSaaaa
+    label MSaaaa
+  ]
+  node
+  [
+    id MSaaaaa
+    label MSaaaaa
+  ]
+  node
+  [
+    id MSaaaaap
+    label MSaaaaap
+  ]
+  node
+  [
+    id MSaaaaapa
+    label MSaaaaapa
+  ]
+  node
+  [
+    id MSaaaaapaa
+    label MSaaaaapaa
+  ]
+  node
+  [
+    id MSaaaap
+    label MSaaaap
+  ]
+  node
+  [
+    id MSaaaapa
+    label MSaaaapa
+  ]
+  node
+  [
+    id MSaaaapaa
+    label MSaaaapaa
+  ]
+  node
+  [
+    id MSp
+    label MSp
+  ]
+  node
+  [
+    id MSpa
+    label MSpa
+  ]
+  node
+  [
+    id MSpaa
+    label MSpaa
+  ]
+  node
+  [
+    id MSpaaa
+    label MSpaaa
+  ]
+  node
+  [
+    id MSpaaap
+    label MSpaaap
+  ]
+  node
+  [
+    id MSpaaapa
+    label MSpaaapa
+  ]
+  node
+  [
+    id MSpaaapaa
+    label MSpaaapaa
   ]
 
   edge
@@ -144,77 +254,77 @@ graph
   edge
   [
     source ABalp
-    target ABalpp
+    target ABalpa
   ]
   edge
   [
-    source ABalpp
-    target ABalppp
+    source ABalpa
+    target ABalpap
   ]
   edge
   [
-    source ABalppp
-    target ABalpppp
+    source ABalpap
+    target ABalpapp
   ]
   edge
   [
-    source ABalpppp
-    target ABalppppp
+    source ABalpapp
+    target ABalpappp
   ]
   edge
   [
-    source ABalppppp
-    target ABalpppppa
+    source ABalpappp
+    target ABalpapppa
   ]
   edge
   [
-    source ABalpppppa
-    target ABalpppppaa
+    source ABalpapppa
+    target ABalpapppaa
   ]
   edge
   [
     source AB
-    target ABp
+    target ABa
   ]
   edge
   [
-    source ABp
-    target ABpr
+    source ABa
+    target ABar
   ]
   edge
   [
-    source ABpr
-    target ABpra
+    source ABar
+    target ABara
   ]
   edge
   [
-    source ABpra
-    target ABpraa
+    source ABara
+    target ABarap
   ]
   edge
   [
-    source ABpraa
-    target ABpraaa
+    source ABarap
+    target ABarapa
   ]
   edge
   [
-    source ABpraaa
-    target ABpraaap
+    source ABarapa
+    target ABarapap
   ]
   edge
   [
-    source ABpraaap
-    target ABpraaapp
+    source ABarapap
+    target ABarapapp
   ]
   edge
   [
-    source ABpraaapp
-    target ABpraaappa
+    source ABarapapp
+    target ABarapappa
   ]
   edge
   [
-    source ABpraaappa
-    target ABpraaappaa
+    source ABarapappa
+    target ABarapappaa
   ]
   edge
   [
@@ -234,76 +344,241 @@ graph
   edge
   [
     source ABalp
-    target ABalpp
+    target ABalpa
   ]
   edge
   [
-    source ABalpp
-    target ABalppp
+    source ABalpa
+    target ABalpap
   ]
   edge
   [
-    source ABalppp
-    target ABalpppp
+    source ABalpap
+    target ABalpapp
   ]
   edge
   [
-    source ABalpppp
-    target ABalppppa
+    source ABalpapp
+    target ABalpappa
   ]
   edge
   [
-    source ABalppppa
-    target ABalppppaa
+    source ABalpappa
+    target ABalpappaa
   ]
   edge
   [
-    source ABalppppaa
-    target ABalppppaad
+    source ABalpappaa
+    target ABalpappaap
+  ]
+  edge
+  [
+    source ABalpappaap
+    target ABalpappaapa
   ]
   edge
   [
     source AB
-    target ABp
+    target ABa
   ]
   edge
   [
-    source ABp
-    target ABpr
+    source ABa
+    target ABar
   ]
   edge
   [
-    source ABpr
-    target ABpra
+    source ABar
+    target ABara
   ]
   edge
   [
-    source ABpra
-    target ABpraa
+    source ABara
+    target ABarap
   ]
   edge
   [
-    source ABpraa
-    target ABpraaa
+    source ABarap
+    target ABarapa
   ]
   edge
   [
-    source ABpraaa
-    target ABpraaap
+    source ABarapa
+    target ABarapap
   ]
   edge
   [
-    source ABpraaap
-    target ABpraaapa
+    source ABarapap
+    target ABarapapa
   ]
   edge
   [
-    source ABpraaapa
-    target ABpraaapaa
+    source ABarapapa
+    target ABarapapaa
   ]
   edge
   [
-    source ABpraaapaa
-    target ABpraaapaad
+    source ABarapapaa
+    target ABarapapaap
+  ]
+  edge
+  [
+    source ABarapapaap
+    target ABarapapaapa
+  ]
+  edge
+  [
+    source MS
+    target MSa
+  ]
+  edge
+  [
+    source MSa
+    target MSaa
+  ]
+  edge
+  [
+    source MSaa
+    target MSaaa
+  ]
+  edge
+  [
+    source MSaaa
+    target MSaaaa
+  ]
+  edge
+  [
+    source MSaaaa
+    target MSaaaaa
+  ]
+  edge
+  [
+    source MSaaaaa
+    target MSaaaaap
+  ]
+  edge
+  [
+    source MSaaaaap
+    target MSaaaaapa
+  ]
+  edge
+  [
+    source MSaaaaapa
+    target MSaaaaapaa
+  ]
+  edge
+  [
+    source MS
+    target MSa
+  ]
+  edge
+  [
+    source MSa
+    target MSaa
+  ]
+  edge
+  [
+    source MSaa
+    target MSaaa
+  ]
+  edge
+  [
+    source MSaaa
+    target MSaaaa
+  ]
+  edge
+  [
+    source MSaaaa
+    target MSaaaap
+  ]
+  edge
+  [
+    source MSaaaap
+    target MSaaaapa
+  ]
+  edge
+  [
+    source MSaaaapa
+    target MSaaaapaa
+  ]
+  edge
+  [
+    source AB
+    target ABa
+  ]
+  edge
+  [
+    source ABa
+    target ABar
+  ]
+  edge
+  [
+    source ABar
+    target ABara
+  ]
+  edge
+  [
+    source ABara
+    target ABarap
+  ]
+  edge
+  [
+    source ABarap
+    target ABarapa
+  ]
+  edge
+  [
+    source ABarapa
+    target ABarapap
+  ]
+  edge
+  [
+    source ABarapap
+    target ABarapapa
+  ]
+  edge
+  [
+    source ABarapapa
+    target ABarapapap
+  ]
+  edge
+  [
+    source ABarapapap
+    target ABarapapapp
+  ]
+  edge
+  [
+    source MS
+    target MSp
+  ]
+  edge
+  [
+    source MSp
+    target MSpa
+  ]
+  edge
+  [
+    source MSpa
+    target MSpaa
+  ]
+  edge
+  [
+    source MSpaa
+    target MSpaaa
+  ]
+  edge
+  [
+    source MSpaaa
+    target MSpaaap
+  ]
+  edge
+  [
+    source MSpaaap
+    target MSpaaapa
+  ]
+  edge
+  [
+    source MSpaaapa
+    target MSpaaapaa
   ]
 ]
