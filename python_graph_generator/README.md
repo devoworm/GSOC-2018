@@ -7,7 +7,7 @@ Parts of this module:-
   - Convertor
   - Output XML docs in graphically compatible format
 
-<img src="xml_to_graph_flow_chart.png">
+<img src="graph_gml.png">
 
 -> XML to compatible graphical format convertor
 
