@@ -13,7 +13,11 @@ Parts of the project:-
 **Force Atlas at 10^3 force units and linear splined node colour for first 3 generations**
 **Precursor - P0 -> P1, AB**
 
+**Initial flowchart:**
 <img src="flow_chart.png">
+
+**Modules completed till now or almost done:**
+<img src="main_2.png">
 
 1. The Datasets
 
