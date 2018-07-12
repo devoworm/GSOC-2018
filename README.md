@@ -8,6 +8,7 @@ Parts of the project:-
   - Excel/CSV to XML convertor
   - XML to compatible graphical format convertor
   - Research paper planning
+  - Common path and trajectory analysis
 
 **Force Atlas at 10^3 force units and linear splined node colour for first 3 generations**
 **Precursor - P0 -> P1, AB**
@@ -51,6 +52,12 @@ More details are given in [**"README.md"**](https://github.com/arnab1896/GSOC-20
    - This folder houses some rough ideas and a points that might be expanded onto later on in case a paper results from the efforts of this project.
    - Later on, these ideas might be researched in more depth or tested and in case it makes sense to go ahead with a paper, then these points will be useful
    - For more details, enter this [folder](https://github.com/arnab1896/GSOC-2018/tree/master/paper_planning).
+
+6. Common path & trajectory analysis
+
+   - This folder houses a simple code that takes input in the form of 2 or more specific cells.
+   - The output of this cell is in the form of a last common ancestor that these cells had.
+   - For more details, enter this [folder](https://github.com/arnab1896/GSOC-2018/tree/master/python_common_path).
 
 **Initialized State of nodes at randomized positions**
 
