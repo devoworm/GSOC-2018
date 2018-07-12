@@ -3,10 +3,14 @@ Repository for Google Summer of Code Project - 2018
 
 Parts of the project:-
 
+1. Parent-daughter cell relations query responder
   - Input query that will be typed by user
   - The terminal(command line interface) for displaying output
   - The master XML document
 
+2. Wildcard Query Responder
+  - Input query that will be typed by user will be in the form of a cell name/class name, eg. spike or C or CA1 or ADFL
+  - Details of that cell are outputted (if found)
 
 <img src="query_flow_chart.png">
 

@@ -64,6 +64,6 @@ for i in range(len(line_lu)):
         lf.write(line_lu[i][ 0 : len(line_lu[i])-1 ])
         lf.write("\n  ]")
         
-
+print "Necessary file has been generated. Please do have a look at README to get started with the most useful layouts that you might need"
 lf.write("\n]")
 lf.close()
