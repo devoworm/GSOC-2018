@@ -1,6 +1,3 @@
-lf = open('lookup_for_parent_daughter_cells.csv','r')
-line_lu=lf.readlines()
-
 fl = open('../embryogenesis_datasets/cell-by-cell-data-v2.csv','r')
 line_fu=fl.readlines()
 
