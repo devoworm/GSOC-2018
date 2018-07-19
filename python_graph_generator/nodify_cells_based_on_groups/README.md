@@ -8,3 +8,5 @@ The most useful layouts for the purpose of this application are:
 3.Use statistics - **modularity**. For starters, accept all default settings. Later on, on left side task bar, node colours(and hence edges too) can be grouped depending on this attribute.
 4.Use **NoOverlap** and **LabelAdjust** to view graph nodes properly
 5.Use **YifanHu** to clean up and straighten the curved nature of the graphs. This helps in getting a much cleaner look to the networks, hence the zoomed-in versions can be better understood. However, it is important to note that this layout is better effective if used **after** using the ForceAtlas layout operation, not before.
+
+<img src="nodify.png">
