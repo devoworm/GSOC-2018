@@ -1,4 +1,19 @@
-lf = open('lineage_name.txt','r')
+##give user choice for final lineage or phase I or phase II
+print "Please enter 0 for final; 1 for Phase 1, 2 for phase II"
+choi = raw_input()
+
+if int(choi) == 0 :
+    print "You chose initial one. So reading file :- lineage_name.txt"
+    lf = open('lineage_name.txt','r')
+elif int(choi) == 1 :
+    print "You chose Phase I. So reading file :- lineage_1st.txt"
+    lf = open('lineage_1st.txt','r')
+else :
+    print "You chose Phase II. So reading file :- lineage_2nd.txt"
+    lf = open('lineage_2nd.txt','r')
+
+
+#lf = open('lineage_name.txt','r')
 wf = open('for_gephi_nodes.txt','w+')
 rf = open('for_gephi_edges.txt','w+')
 line_lu=lf.readlines()
