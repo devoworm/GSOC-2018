@@ -1,4 +1,4 @@
-lf = open('all_cells.csv','r')
+lf = open('python_query_respond/explore/all_cells.csv','r')
 line_lu=lf.readlines()
 
 com = 0
