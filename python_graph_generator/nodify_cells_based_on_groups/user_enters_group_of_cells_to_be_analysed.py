@@ -26,10 +26,10 @@ else :
     start_index = 0
     end_index = 0
     
-lf = open('test.csv','r')
+lf = open('python_graph_generator/nodify_cells_based_on_groups/test.csv','r')
 line_lu=lf.readlines()
 
-wf = open('lineage_name.txt','w+')
+wf = open('python_graph_generator/nodify_cells_based_on_groups/lineage_name.txt','w+')
 
 print "start index = " + str(start_index)
 print "end index = " + str(end_index)
@@ -60,3 +60,8 @@ for i in range (start_index , end_index + 1) :
 print len(my_list)
 for i in range (0,len(my_list)) :
     wf.write(my_list[i] + "\n")
+    
+print "The lineages have been generated. Now they need to be split."
+
+##call split_lineage_to_nodes.py
+execfile("python_graph_generator/nodify_cells_based_on_groups/split_lineage_to_nodes.py")
