@@ -1,4 +1,4 @@
-fl = open('../embryogenesis_datasets/cell-by-cell-data-v2.csv','r')
+fl = open('python_query_respond/../embryogenesis_datasets/cell-by-cell-data-v2.csv','r')
 line_fu=fl.readlines()
 
 com = 0
