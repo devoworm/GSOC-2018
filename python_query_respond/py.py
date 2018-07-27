@@ -4,7 +4,7 @@
 my_list = [""]
 
 ##code for generating lookup table
-lf = open('lookup_for_parent_daughter_cells.csv','r')
+lf = open('python_query_respond/lookup_for_parent_daughter_cells.csv','r')
 line_lu=lf.readlines()
 comma1_found = 0
 comma2_found = 0
@@ -15,7 +15,7 @@ comma2_found_dc = 0
 
 ##code for generating lookup table ends here ______________________________
 
-f = open('test_in_csv.csv','r')
+f = open('python_query_respond/test_in_csv.csv','r')
 lines=f.readlines()
 a = ''
 #define string and a list to help in character assignment
