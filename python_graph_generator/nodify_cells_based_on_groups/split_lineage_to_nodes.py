@@ -4,7 +4,7 @@ choi = raw_input()
 
 if int(choi) == 0 :
     print "You chose initial one. So reading file :- lineage_name.txt"
-    lf = open('lineage_name.txt','r')
+    lf = open('python_graph_generator/nodify_cells_based_on_groups/lineage_name.txt','r')
 elif int(choi) == 1 :
     print "You chose Phase I. So reading file :- lineage_1st.txt"
     lf = open('lineage_1st.txt','r')
@@ -14,8 +14,8 @@ else :
 
 
 #lf = open('lineage_name.txt','r')
-wf = open('for_gephi_nodes.txt','w+')
-rf = open('for_gephi_edges.txt','w+')
+wf = open('python_graph_generator/nodify_cells_based_on_groups/for_gephi_nodes.txt','w+')
+rf = open('python_graph_generator/nodify_cells_based_on_groups/for_gephi_edges.txt','w+')
 line_lu=lf.readlines()
 master_list = []
 master_list_with_reps = []
@@ -69,3 +69,6 @@ for i in range (0,len(master_list)) :
 
 for i in range (0,len(master_list_with_reps)) :
     rf.write(master_list_with_reps[i] + "\n")
+
+print "Now the lineage has been split to nodes and edges. Proceeding with *.gml creation"
+print "In local folder, run nodes_to_gml.py to create the gml"

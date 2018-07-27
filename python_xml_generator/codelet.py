@@ -1,12 +1,10 @@
 ##test code
 
-f = open('sample_data.csv','r')
+f = open('python_xml_generator/sample_data.csv','r')
 lines=f.readlines()
-print lines[0][2]
+
 #just some sample print statements to check if everyhting's printing properly
 print lines[1]
-print lines[2]
-print lines[3]
 #print the root element Cell
 print ('\x1b[5;30;43m' + "<Cell>" + '\x1b[0m')
 

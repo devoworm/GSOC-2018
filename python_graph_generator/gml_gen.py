@@ -1,5 +1,5 @@
-lf = open('aaa.gml','w+')
-lllf = open('lookup_for_parent_daughter_cells.csv','r')
+lf = open('python_graph_generator/aaa.gml','w+')
+lllf = open('python_graph_generator/lookup_for_parent_daughter_cells.csv','r')
 line_lu_lllf=lllf.readlines()
 targ = ""
 
@@ -72,3 +72,5 @@ for i in range(8):
 lf.write("\n]")
     
 lf.close()
+
+print "New *.gml file has been created. Please check local folder"

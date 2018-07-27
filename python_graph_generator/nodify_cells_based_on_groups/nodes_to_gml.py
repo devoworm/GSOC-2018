@@ -1,6 +1,7 @@
 lf = open('for_gephi.gml','w+')
 lllf = open('for_gephi_nodes.txt','r')
 f3 = open('for_gephi_edges.txt','r')
+##python_graph_generator/nodify_cells_based_on_groups/
 line_lu_lllf=lllf.readlines()
 targ = ""
 major_break = 0
@@ -67,3 +68,5 @@ for i in range(len(line_lu)):
 print "Necessary file has been generated. Please do have a look at README to get started with the most useful layouts that you might need"
 lf.write("\n]")
 lf.close()
+
+print "Now, the *.gml file has been created. Please check local folder"
