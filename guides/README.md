@@ -22,4 +22,4 @@ After that, you are more than welcome to open pull requests/discuss interesting 
 
 This project is an ongoing live project that still has a long way to go before it can be merged with the main initiatives and docker container of OpenWorm.
 
-[**"Master README file of project"**](https://github.com/arnab1896/GSOC-2018/README.md)
+[**"Master README file of project"**](https://github.com/arnab1896/GSOC-2018/blob/master/README.md)
