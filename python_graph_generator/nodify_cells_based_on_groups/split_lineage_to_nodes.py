@@ -14,8 +14,8 @@ else :
 
 
 #lf = open('lineage_name.txt','r')
-wf = open('python_graph_generator/nodify_cells_based_on_groups/for_gephi_nodes.txt','w+')
-rf = open('python_graph_generator/nodify_cells_based_on_groups/for_gephi_edges.txt','w+')
+wf = open('python_graph_generator/nodify_cells_based_on_groups/f_gephi_nodes.txt','w+')
+rf = open('python_graph_generator/nodify_cells_based_on_groups/f_gephi_edges.txt','w+')
 line_lu=lf.readlines()
 master_list = []
 master_list_with_reps = []

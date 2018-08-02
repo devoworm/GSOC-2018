@@ -1,6 +1,6 @@
 ##initialize first file to be read(r) and other two to write(w+)
 
-rf = open('lineage_name.txt','r')
+rf = open('f_gephi_lineage_name.txt','r')
 of = open('lineage_1st.txt','w+')
 sf = open('lineage_2nd.txt','w+')
 line_lu=rf.readlines()
