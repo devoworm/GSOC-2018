@@ -4,13 +4,13 @@ choi = raw_input()
 
 if int(choi) == 0 :
     print "You chose initial one. So reading file :- lineage_name.txt"
-    lf = open('python_graph_generator/nodify_cells_based_on_groups/lineage_name.txt','r')
+    lf = open('python_graph_generator/nodify_cells_based_on_groups/f_gephi_lineage_name.txt','r')
 elif int(choi) == 1 :
-    print "You chose Phase I. So reading file :- lineage_1st.txt"
-    lf = open('lineage_1st.txt','r')
+    print "You chose Phase I. So reading file :- f_gephi_lineage_1.txt"
+    lf = open('python_graph_generator/nodify_cells_based_on_groups/f_gephi_lineage_1.txt','r')
 else :
-    print "You chose Phase II. So reading file :- lineage_2nd.txt"
-    lf = open('lineage_2nd.txt','r')
+    print "You chose Phase II. So reading file :- f_gephi_lineage_2.txt"
+    lf = open('python_graph_generator/nodify_cells_based_on_groups/f_gephi_lineage_2.txt','r')
 
 
 #lf = open('lineage_name.txt','r')

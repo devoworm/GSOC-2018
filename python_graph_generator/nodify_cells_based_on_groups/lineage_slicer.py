@@ -1,8 +1,8 @@
 ##initialize first file to be read(r) and other two to write(w+)
 
-rf = open('f_gephi_lineage_name.txt','r')
-of = open('lineage_1st.txt','w+')
-sf = open('lineage_2nd.txt','w+')
+rf = open('python_graph_generator/nodify_cells_based_on_groups/f_gephi_lineage_name.txt','r')
+of = open('python_graph_generator/nodify_cells_based_on_groups/f_gephi_lineage_1.txt','w+')
+sf = open('python_graph_generator/nodify_cells_based_on_groups/f_gephi_lineage_2.txt','w+')
 line_lu=rf.readlines()
 
 ##for now, assuming lineage lenght is around 7 to 8 generations, for now slice into 3 events. After 1st, after 4th and last

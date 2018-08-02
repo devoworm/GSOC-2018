@@ -31,6 +31,7 @@ line_lu=lf.readlines()
 
 wf = open('python_graph_generator/nodify_cells_based_on_groups/f_gephi_lineage_name.txt','w+')
 
+
 print "start index = " + str(start_index)
 print "end index = " + str(end_index)
 
