@@ -1,5 +1,5 @@
 lf = open('python_graph_generator/aaa.gml','w+')
-lllf = open('python_graph_generator/lookup_for_parent_daughter_cells.csv','r')
+lllf = open('python_graph_generator/curled_lookup_pdc.csv','r')
 line_lu_lllf=lllf.readlines()
 targ = ""
 
