@@ -10,11 +10,8 @@ Parts of the project:-
   - Research paper planning
   - Common path and trajectory analysis
 
-**Force Atlas at 10^3 force units and linear splined node colour for first 3 generations**
-**Precursor - P0 -> P1, AB**
-
-**Initial flowchart:**
-<img src="flow_chart.png">
+**Main flowchart:**
+<img src="main_bash.png">
 
 **Modules completed till now or almost done:**
 <img src="main_2.png">
@@ -26,8 +23,6 @@ Parts of the project:-
    - Second step is to convert it into some compatible graphical XML schema that will be decided depending on the application being used
 
 More details are given in [**"README.md"**](https://github.com/arnab1896/GSOC-2018/tree/issue-8_branch/embryogenesis_datasets) file of the folder along with a flow chart
-
-<img src="resources_pics/fa.png">
 
 2. Query Responder on terminal(command line interface)
 
@@ -62,6 +57,13 @@ More details are given in [**"README.md"**](https://github.com/arnab1896/GSOC-20
    - This folder houses a simple code that takes input in the form of 2 or more specific cells.
    - The output of this cell is in the form of a last common ancestor that these cells had.
    - For more details, enter this [folder](https://github.com/arnab1896/GSOC-2018/tree/master/python_common_path).
+
+##**Some sample simulation pictures from Gephi**
+
+**Force Atlas at 10^3 force units and linear splined node colour for first 3 generations**
+**Precursor - P0 -> P1, AB**
+
+<img src="resources_pics/fa.png">
 
 **Initialized State of nodes at randomized positions**
 
