@@ -8,6 +8,7 @@ len_st = 0
 line_no = 0
 stl = 0
 match = 0
+count = 0
 
 print "Enter search term"
 search = raw_input()
@@ -40,7 +41,10 @@ for i in range ( 0 , int(len(line_lu)) ) :
 
     #if there's a match, then output
     if match == 1 :
+        count += 1
         print str(i+1) + " " + line_lu[i]
+
+print "There were %s successful occurances of your search key." % str(count)
 
 """for i in range ( 0 , int(len(line_lu)) ) :
     
