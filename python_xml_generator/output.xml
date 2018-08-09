@@ -1,0 +1,62 @@
+<MasterDocument>
+    <Cell>
+        <Name>SABVL</Name>
+        <Parent>AB</Parent>
+        <Lineage>plppapaaaa</Lineage>
+        <Description>Ring interneuron, anteriorly projecting process that runs sublaterally, synapses to anterior body muscles in L1</Description>
+    </Cell>
+    <Cell>
+        <Name>SABVR</Name>
+        <Parent>AB</Parent>
+        <Lineage>prppapaaaa</Lineage>
+        <Description>Ring interneuron, anteriorly projecting process that runs sublaterally, synapses to anterior body muscles in L1</Description>
+    </Cell>
+    <Cell>
+        <Name>SDQL</Name>
+        <Parent>QL</Parent>
+        <Lineage>pap</Lineage>
+        <Description>Post. lateral interneuron, process projects into ring</Description>
+    </Cell>
+    <Cell>
+        <Name>SDQR</Name>
+        <Parent>QR</Parent>
+        <Lineage>pap</Lineage>
+        <Description>Ant. lateral interneuron, process projects into ring</Description>
+    </Cell>
+    <Cell>
+        <Name>SIADL</Name>
+        <Parent>AB</Parent>
+        <Lineage>plpapaapa</Lineage>
+        <Description>Receives a few synapses in the ring, has a posteriorly directed process that runs sublaterally</Description>
+    </Cell>
+    <Cell>
+        <Name>SIADR</Name>
+        <Parent>AB</Parent>
+        <Lineage>prpapaapa</Lineage>
+        <Description>Receives a few synapses in the ring, has a posteriorly directed process that runs sublaterally</Description>
+    </Cell>
+    <Cell>
+        <Name>SIAVL</Name>
+        <Parent>AB</Parent>
+        <Lineage>plpapappa</Lineage>
+        <Description>Receives a few synapses in the ring, has a posteriorly directed process that runs sublaterally</Description>
+    </Cell>
+    <Cell>
+        <Name>SIAVR</Name>
+        <Parent>AB</Parent>
+        <Lineage>prpapappa</Lineage>
+        <Description>Receives a few synapses in the ring, has a posteriorly directed process that runs sublaterally</Description>
+    </Cell>
+    <Cell>
+        <Name>SIBDL</Name>
+        <Parent>AB</Parent>
+        <Lineage>plppaaaaa</Lineage>
+        <Description>Receives a few synapses in the ring, has a posteriorly directed process that runs sublaterally</Description>
+    </Cell>
+    <Cell>
+        <Name>SIBDR</Name>
+        <Parent>AB</Parent>
+        <Lineage>prppaaaaa</Lineage>
+        <Description>Receives a few synapses in the ring, has a posteriorly directed process that runs sublaterally</Description>
+    </Cell>
+</MasterDocument>

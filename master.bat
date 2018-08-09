@@ -36,7 +36,7 @@ elif [ "$varname" == "5" ]; then
 	echo "XML Generator will run"
 	echo "_______________________________________"
 	echo " "
-	python python_xml_generator/codelet.py
+	python python_xml_generator/xml.py
 elif [ "$varname" == "6" ]; then
 	echo "GML tree generator will run"
 	echo "_______________________________________"
