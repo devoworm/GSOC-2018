@@ -87,9 +87,10 @@ More details are given in [**"README.md"**](https://github.com/arnab1896/GSOC-20
 More details are given in [**"README.md"**](https://github.com/arnab1896/GSOC-2018/tree/issue-8_branch/python_query_respond/explore) file of the folder along with a flow chart
 
 **A very important point to note is that what differentiates feature 4 and 5 is this :-**
-|               Feature 4 - Wildcard Search               |                       Feature 5 - Exploratory Search                       |
+
+| Feature 4 - Wildcard Search | Feature 5 - Exploratory Search |
 |:-------------------------------------------------------:|:--------------------------------------------------------------------------:|
-| Meant for adult cells                                   | Meant for cells that are in between precursor and end cells                |
+| Meant for adult cells | Meant for cells that are in between precursor and end cells |
 | Will only return results on perfect match of search key | Will return results of all lineages that match (even supersets) of the key |
 
 6. CSV to compatible graphical format convertor
