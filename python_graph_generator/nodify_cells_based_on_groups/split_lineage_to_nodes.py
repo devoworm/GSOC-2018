@@ -4,19 +4,19 @@ choi = raw_input()
 
 if int(choi) == 0 :
     print "You chose initial one. So reading file :- lineage_name.txt"
-    lf = open('python_graph_generator/nodify_cells_based_on_groups/f_gephi_lineage_name.txt','r')
+    spl_lf = open('python_graph_generator/nodify_cells_based_on_groups/f_gephi_lineage_name.txt','r')
 elif int(choi) == 1 :
     print "You chose Phase I. So reading file :- f_gephi_lineage_1.txt"
-    lf = open('python_graph_generator/nodify_cells_based_on_groups/f_gephi_lineage_1.txt','r')
+    spl_lf = open('python_graph_generator/nodify_cells_based_on_groups/f_gephi_lineage_1.txt','r')
 else :
     print "You chose Phase II. So reading file :- f_gephi_lineage_2.txt"
-    lf = open('python_graph_generator/nodify_cells_based_on_groups/f_gephi_lineage_2.txt','r')
+    spl_lf = open('python_graph_generator/nodify_cells_based_on_groups/f_gephi_lineage_2.txt','r')
 
 
-#lf = open('lineage_name.txt','r')
-wf = open('python_graph_generator/nodify_cells_based_on_groups/f_gephi_nodes.txt','w+')
-rf = open('python_graph_generator/nodify_cells_based_on_groups/f_gephi_edges.txt','w+')
-line_lu=lf.readlines()
+#spl_lf = open('lineage_name.txt','r')
+spl_wf = open('python_graph_generator/nodify_cells_based_on_groups/f_gephi_nodes.txt','w+')
+spl_rf = open('python_graph_generator/nodify_cells_based_on_groups/f_gephi_edges.txt','w+')
+line_lu=spl_lf.readlines()
 master_list = []
 master_list_with_reps = []
 master_list_with_reps = master_list_with_reps + list(str(len(line_lu)))
@@ -65,10 +65,10 @@ print "\nThis is master list in order which will be used to make edge connection
 print master_list_with_reps
 
 for i in range (0,len(master_list)) :
-    wf.write(master_list[i] + "\n")
+    spl_wf.write(master_list[i] + "\n")
 
 for i in range (0,len(master_list_with_reps)) :
-    rf.write(master_list_with_reps[i] + "\n")
+    spl_rf.write(master_list_with_reps[i] + "\n")
 
 print "Now the lineage has been split to nodes and edges. Proceeding with *.gml creation"
 print "In local folder, run nodes_to_gml.py to create the gml"

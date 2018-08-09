@@ -63,6 +63,3 @@ for i in range (0,len(my_list)) :
     wf.write(my_list[i] + "\n")
     
 print "The lineages have been generated. Now they need to be split."
-
-##call split_lineage_to_nodes.py
-execfile("python_graph_generator/nodify_cells_based_on_groups/split_lineage_to_nodes.py")
