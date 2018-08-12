@@ -112,7 +112,7 @@ while loop_variable == 1 :
 			    print ("in this line the main cell is: " + line_lu[int(cur_line_no)][comma1_found_dc+1:comma2_found_dc])
 			    if line_lu[int(cur_line_no)][comma1_found_dc+1:comma2_found_dc] == line_lu[int(line_no)][comma2_found+1:comma3_found] :
 			        print "match found"
-			        print("the line no. of the said cell is : " + str(cur_line_no))
+			        print("the line no. of the said cell is : " + str(cur_line_no) + ". The length of this is: " + str(int(len(lines[int(cur_line_no)]))))
 			        line_no = cur_line_no
 			        print("Enter the length limit that you want to analyse")
 		                index_no = raw_input()
@@ -134,7 +134,7 @@ while loop_variable == 1 :
 			    print ("we need to compare this to th: " + line_lu[int(line_no)][comma3_found+1:comma4_found])
 			    if str(line_lu[int(cur_line_no)][comma1_found_dc+1:comma2_found_dc]) == str(line_lu[int(line_no)][comma3_found+1:comma4_found]) :
 			        print "match found"
-			        print("the line no. of the said cell is : " + str(cur_line_no))
+			        print("the line no. of the said cell is : " + str(cur_line_no) + ". The length of this is: " + str(int(len(lines[int(cur_line_no)]))))
 			        line_no = cur_line_no
 			        print("Enter the length limit that you want to analyse")
 		                index_no = raw_input()
