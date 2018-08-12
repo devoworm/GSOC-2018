@@ -1,6 +1,8 @@
+##File where the lookup happens from
 fl = open('python_query_respond/../embryogenesis_datasets/cell-by-cell-data-v2.csv','r')
 line_fu=fl.readlines()
 
+##Some important flags and comma index storing variables
 com = 0
 com2 = 0
 line_no = 0
@@ -8,6 +10,7 @@ first = ""
 second = ""
 third = ""
 
+#Input from user
 print "Enter search term"
 search = raw_input()
 print "\n\n"
@@ -43,6 +46,7 @@ for i in range ( 0 , int(len(line_fu)) ) :
             else :
                 third = third + line_fu[i][l]
                 
+        #Every match is outputted with 3 essential pieces of information        
         print "NAME OF CELL : " + first
         print "LINEAGE CELL : " + second[1:]
         print "DESCRIPTION  : " + third[1:]

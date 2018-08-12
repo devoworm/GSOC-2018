@@ -1,3 +1,4 @@
+#input file where the lookup happens from
 lf = open('python_query_respond/explore/all_cells.csv','r')
 line_lu=lf.readlines()
 
@@ -45,21 +46,3 @@ for i in range ( 0 , int(len(line_lu)) ) :
         print str(i+1) + " " + line_lu[i]
 
 print "There were %s successful occurances of your search key." % str(count)
-
-"""for i in range ( 0 , int(len(line_lu)) ) :
-    
-    if i == 642 :
-        print line_lu[i][0:7]
-    
-    for j in range ( 0 , 17 ) :
-        if str(line_lu[i][j]) == ':' :
-            com = j
-            break
-	
-	st = str(line_lu[i][0:com])
-	len_st = len(st)
-	
-	for z in range ( 1 , len_st + 1 ) :
-	    if search == st[0:j] :
-	        print str(i+1) + " " + line_lu[i]
-	        break"""

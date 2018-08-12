@@ -1,4 +1,4 @@
-##test code
+##The file variables store the input and output paths
 
 f = open('embryogenesis_datasets/cell-by-cell-data-v2.csv','r')
 wf = open('python_xml_generator/output.xml','w+')
@@ -6,6 +6,7 @@ lines=f.readlines()
 
 wf.write("<MasterDocument>"+"\n")
 
+#taking user input to decide course of action
 print "Welcome to XML generator. Please select the options carefully"
 print "\n1. Generate .xml file for cells in a specific range"
 print "\n2. Do the above plus echo the .xml structure for cells in a specific range on terminal itself"
@@ -17,6 +18,7 @@ if int(choice) < 10 :
 	colon2 = 0
 	par_ind = 0
 	
+	#Taking user input in form index numbers to decide which cells to use to create XML document
 	print "Enter first index starting in range 1 to 1000"
 	first_index = raw_input()
 	
@@ -29,7 +31,8 @@ if int(choice) < 10 :
 	
 	for i in range ( 0 , int(tabs) ):
 	    s = s + " "
-
+        
+        #Reason for finding colon index numbers is so that the actual data content can be extracted
 	for i in range ( int(first_index) , int(second_index) ) :
 		for j in range ( 0 , 10 ) :
 		    if lines[i][j] == ":" :
@@ -55,6 +58,7 @@ if int(choice) < 10 :
 		lineage = lines[i][par_ind+1:colon2]
 		description = lines[i][colon2+1:int(len(lines[i]))-1]
 		
+		#Using format specifiers to fill out the structure of the document and interleave it with the actual data that is being extracted from input file
 		wf.write(("%s<Cell>" % s)+"\n")
 		wf.write(("%s%s<Name>" % (s,s)))
 		wf.write(name)

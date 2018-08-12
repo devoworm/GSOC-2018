@@ -22,13 +22,14 @@ a = ''
 myArray = "\0" * 200
 listify = list(myArray)
 
+#important flags and counter variables
 first_time_use_variable = 1
 line_no = 0
 
 loop_variable = 1
 while loop_variable == 1 :
 
-
+        ##reason for doing this is because the behaviour of the program is different when executed for first time ever
 	if first_time_use_variable != 1 :
 	    print("The current line no. being analysed is: " + str(line_no))
 	    print("Would you like to analyse a daughter/parent cell of the current cell? Press 1 for daughter; 0 for starting fresh and 2 for parent cell")
@@ -177,6 +178,7 @@ while loop_variable == 1 :
 	#append query line number to list
 	my_list.append(str(line_no))
 
+        #The output happens here
 	var = 0
 	first_index = 0
 	second_index = comma_indices[var]
@@ -194,6 +196,7 @@ while loop_variable == 1 :
 		first_index = second_index + 1
 		second_index = comma_indices[var]
 
+        ##Asks user for input to decide whether to loop or not
 	print("Enter 1 if you want to keep running")
 	loop_variable = raw_input()
 	loop_variable = int(loop_variable)
