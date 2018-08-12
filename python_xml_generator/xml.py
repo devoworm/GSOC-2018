@@ -79,3 +79,5 @@ if int(choice) < 10 :
 			print ('\x1b[5;30;43m' + "</Cell>" + '\x1b[0m')
 
 wf.write("</MasterDocument>"+"\n")
+
+print "The operation is now complete. Please visit the local folder ---> /python_xml_generator/output.xml to get the file"
