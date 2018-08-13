@@ -1,0 +1,14 @@
+<MasterDocument>
+    <Cell>
+        <Name>AB</Name>
+        <Parent>P0</Parent>
+        <Lineage>a</Lineage>
+        <Description>Embryonic founder cell</Description>
+    </Cell>
+    <Cell>
+        <Name>ADAL</Name>
+        <Parent>AB</Parent>
+        <Lineage>plapaaaapp</Lineage>
+        <Description>Ring interneurons</Description>
+    </Cell>
+</MasterDocument>

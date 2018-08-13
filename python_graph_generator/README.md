@@ -7,7 +7,18 @@ Parts of this module:-
   - Convertor
   - Output XML docs in graphically compatible format
 
-<img src="graph_gml.png">
+##**Some sample simulation pictures from Gephi**
+
+**Pharyngeal Cell Cluster**
+
+**Phase 2**
+<img src="phase2.png">
+
+**Phase 1**
+<img src="phase1.png">
+
+**Phase 0**
+<img src="phase0.png">
 
 -> XML to compatible graphical format convertor
 
@@ -39,3 +50,5 @@ So, for these cells care must be taken to not repeat the node names in the *.gml
 3. Print/write the lineage names of all the cells identified in step 2 in a text file
 4. Have another script that will capture these lineage names from text file generated in step 3 and nodify them. Nodify is the process of splitting the lineage into succesive generations of nodes.
 5. Filter out the redundant nodes that need not be simulated more than once.
+
+<img src="graph_gml.png">

@@ -1,8 +1,8 @@
-lf = open('for_gephi.gml','w+')
-lllf = open('for_gephi_nodes.txt','r')
-f3 = open('for_gephi_edges.txt','r')
+ntg_lf = open('python_graph_generator/nodify_cells_based_on_groups/for_gephi.gml','w+')
+ntg_lllf = open('python_graph_generator/nodify_cells_based_on_groups/f_gephi_nodes.txt','r')
+f3 = open('python_graph_generator/nodify_cells_based_on_groups/f_gephi_edges.txt','r')
 ##python_graph_generator/nodify_cells_based_on_groups/
-line_lu_lllf=lllf.readlines()
+line_lu_ntg_lllf=ntg_lllf.readlines()
 targ = ""
 major_break = 0
 
@@ -16,16 +16,16 @@ def RepresentsInt(s):
 
 ######write up nodes
 
-lf.write("graph\n[")
+ntg_lf.write("graph\n[")
 s1 = "\n  node\n  [\n    id"
 s2 = "\n    label"
-for i in range(len(line_lu_lllf)):
-    lf.write("%s" % s1)
-    lf.write(" %s" % line_lu_lllf[i][0:len(line_lu_lllf[i])-1])
-    lf.write("%s" % s2)
-    lf.write(" %s" %line_lu_lllf[i])
-    lf.write("  ]")
-lf.write("\n")    
+for i in range(len(line_lu_ntg_lllf)):
+    ntg_lf.write("%s" % s1)
+    ntg_lf.write(" %s" % line_lu_ntg_lllf[i][0:len(line_lu_ntg_lllf[i])-1])
+    ntg_lf.write("%s" % s2)
+    ntg_lf.write(" %s" %line_lu_ntg_lllf[i])
+    ntg_lf.write("  ]")
+ntg_lf.write("\n")    
 
 
 s3 = "\n  edge\n  [\n    source"
@@ -59,14 +59,14 @@ for i in range(len(line_lu)):
     if major_break == 1 :
         print "break point encountered"
     else :
-        lf.write("%s " % s3)
-        lf.write(line_lu[i-1][ 0 : len(line_lu[i-1])-1 ])
-        lf.write("%s " % s4)
-        lf.write(line_lu[i][ 0 : len(line_lu[i])-1 ])
-        lf.write("\n  ]")
+        ntg_lf.write("%s " % s3)
+        ntg_lf.write(line_lu[i-1][ 0 : len(line_lu[i-1])-1 ])
+        ntg_lf.write("%s " % s4)
+        ntg_lf.write(line_lu[i][ 0 : len(line_lu[i])-1 ])
+        ntg_lf.write("\n  ]")
         
 print "Necessary file has been generated. Please do have a look at README to get started with the most useful layouts that you might need"
-lf.write("\n]")
-lf.close()
+ntg_lf.write("\n]")
+ntg_lf.close()
 
 print "Now, the *.gml file has been created. Please check local folder"

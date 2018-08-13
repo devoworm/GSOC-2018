@@ -107,6 +107,9 @@ More details are given in [**"README.md"**](https://github.com/arnab1896/GSOC-20
 
 ##**Some sample simulation pictures from Gephi**
 
+**Pharyngeal Cell Cluster**
+**Development cycle from phase 2 to phase 1 to phase 0[ADULT STATE]**
+<img src="resources_pics/all_3_phases.png">
 
 **Force Atlas at 10^3 force units and linear splined node colour for first 3 generations**
 **Precursor - P0 -> P1, AB**

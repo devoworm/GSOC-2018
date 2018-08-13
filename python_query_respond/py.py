@@ -22,13 +22,14 @@ a = ''
 myArray = "\0" * 200
 listify = list(myArray)
 
+#important flags and counter variables
 first_time_use_variable = 1
 line_no = 0
 
 loop_variable = 1
 while loop_variable == 1 :
 
-
+        ##reason for doing this is because the behaviour of the program is different when executed for first time ever
 	if first_time_use_variable != 1 :
 	    print("The current line no. being analysed is: " + str(line_no))
 	    print("Would you like to analyse a daughter/parent cell of the current cell? Press 1 for daughter; 0 for starting fresh and 2 for parent cell")
@@ -112,7 +113,7 @@ while loop_variable == 1 :
 			    print ("in this line the main cell is: " + line_lu[int(cur_line_no)][comma1_found_dc+1:comma2_found_dc])
 			    if line_lu[int(cur_line_no)][comma1_found_dc+1:comma2_found_dc] == line_lu[int(line_no)][comma2_found+1:comma3_found] :
 			        print "match found"
-			        print("the line no. of the said cell is : " + str(cur_line_no))
+			        print("the line no. of the said cell is : " + str(cur_line_no) + ". The length of this is: " + str(int(len(lines[int(cur_line_no)]))))
 			        line_no = cur_line_no
 			        print("Enter the length limit that you want to analyse")
 		                index_no = raw_input()
@@ -134,7 +135,7 @@ while loop_variable == 1 :
 			    print ("we need to compare this to th: " + line_lu[int(line_no)][comma3_found+1:comma4_found])
 			    if str(line_lu[int(cur_line_no)][comma1_found_dc+1:comma2_found_dc]) == str(line_lu[int(line_no)][comma3_found+1:comma4_found]) :
 			        print "match found"
-			        print("the line no. of the said cell is : " + str(cur_line_no))
+			        print("the line no. of the said cell is : " + str(cur_line_no) + ". The length of this is: " + str(int(len(lines[int(cur_line_no)]))))
 			        line_no = cur_line_no
 			        print("Enter the length limit that you want to analyse")
 		                index_no = raw_input()
@@ -177,6 +178,7 @@ while loop_variable == 1 :
 	#append query line number to list
 	my_list.append(str(line_no))
 
+        #The output happens here
 	var = 0
 	first_index = 0
 	second_index = comma_indices[var]
@@ -194,6 +196,7 @@ while loop_variable == 1 :
 		first_index = second_index + 1
 		second_index = comma_indices[var]
 
+        ##Asks user for input to decide whether to loop or not
 	print("Enter 1 if you want to keep running")
 	loop_variable = raw_input()
 	loop_variable = int(loop_variable)

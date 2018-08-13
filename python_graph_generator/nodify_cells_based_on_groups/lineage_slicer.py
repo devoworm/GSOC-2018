@@ -20,7 +20,7 @@ for loop_var in range ( 0 , int( len(line_lu) ) ) :
 print "Lowest count = " + str(low_count) + ". Highest count = " + str(high_count)
 
 
-##for now, assuming lineage lenght is around 7 to 8 generations, for now slice into 3 events. After 1st, after 4th and last
+##for now, assuming lineage lenght is around 7 to 8 generations, for now slice into 3 events. After 1st, after (r/2)th and last
 ##accrodingly the two raios are decided
 r1 = 2
 r2 = (low_count / 2) - 1
@@ -41,11 +41,11 @@ for i in range ( 0 , count ) :
     j3 = j / r2
     print str(i+1) + ". Length after first 3 :- " + str(j) + ". After /" + str(r1) + " = " + str(j2) + ". After /" + str(r2) + " = " + str(j3)
     print line_lu[i][0:len(line_lu[i])-1]
-    #print second one /2 and write in 1st lineage
+    #print second one /r1 and write in 1st lineage
     t1 =  line_lu[i][0:(3+j2)]
     print t1
     of.write( t1 + "\n" )
-    #print third one /7 and write in 2nd lineage
+    #print third one /r2 and write in 2nd lineage
     t2 =  line_lu[i][0:(3+j3)]
     print t2  + "\n"
     sf.write( t2 + "\n" )
